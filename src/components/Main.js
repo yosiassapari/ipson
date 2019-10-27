@@ -3,6 +3,8 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import carakerja from '../images/carakerja.jpg'
+import afiliasi from '../images/afiliasi.jpg'
 
 class Main extends React.Component {
   render() {
@@ -28,16 +30,15 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Apa itu IPSON?</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
           <p>
-            IPSON is .... (nanti bisa di isi sendiri)
+            Platform mentorship online/offline untuk membangun hubungan sosial, akademik, dan entrepreneurship anak-anak Papua.
           </p>
           <p>
-            Visi: <br />
-            Misi:
+            Visi IPSON adalah untuk membantu anak-anak Papua meraih kesuksesan sesuai bidang dan minatnya.
           </p>
           {close}
         </article>
@@ -49,21 +50,22 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Mengapa IPSON penting?</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
-            Things that IPSON has done are:
+            Anak-anak Papua sering kesulitan memilih bidang
+            ilmu atau karir yang sesuai minat karena
+            kurangnya akses informasi sehingga muncul kebutuhan
+            akan mentoring tentang proses penyaluran minat/bakat
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Keunikan IPSON:
+            <ul>
+              <li>Mentor mendapat pemasukkan sampingan</li>
+              <li>Mentee mendapat kesempatan untuk berkunjung ke tempat mentor</li>
+            </ul>
           </p>
           {close}
         </article>
@@ -75,13 +77,10 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Bagaimana cara kerja IPSON?</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={carakerja} alt="" />
           </span>
-          <p>
-            Bisa di ganti
-          </p>
           {close}
         </article>
 
@@ -143,6 +142,9 @@ class Main extends React.Component {
               </a>
             </li>
           </ul>
+          <span className="image main">
+            <img src={afiliasi} alt="" />
+          </span>
           {close}
         </article>
       </div>
