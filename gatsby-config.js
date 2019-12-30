@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "International Papua Scholars Network",
-    author: "Richard Mehuze",
-    description: "Membangun jejaring akademik dan professional terbesar di Papua/Papua Barat"
+    title: "Honai Technology",
+    author: "Papua Muda Inspiratif (PMI)",
+    description: "Do More With Less"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
