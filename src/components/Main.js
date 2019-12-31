@@ -35,10 +35,8 @@ class Main extends React.Component {
           <h2 className="major">Follow the link below to the survey</h2>
 
           <p>
-          <Linkify>
             Survey Link:
             https://dsc14256.sawtoothsoftware.com/dPd77mKcG6/cgi-bin/ciwweb.pl?studyname=dPd77mKcG6
-          </Linkify>
           </p>
           <p>
             Powered by Papua Muda Inspiratif (PMI).
