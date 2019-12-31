@@ -32,16 +32,16 @@ class Main extends React.Component {
 
           <p>
             Survey Link:
-            https://dsc14256.sawtoothsoftware.com/dPd77mKcG6/cgi-bin/ciwweb.pl?studyname=dPd77mKcG6
+            <a
+                href="https://dsc14256.sawtoothsoftware.com/dPd77mKcG6/cgi-bin/ciwweb.pl?studyname=dPd77mKcG6"
+                className="icon fa-check-square-o"
+              >
+                <span className="label">Survey</span>
+              </a>
           </p>
           <p>
             Powered by Papua Muda Inspiratif (PMI).
-            <a
-              href="https://twitter.com/PascalSapari"
-              className="icon fa-twitter"
-            >
-              <span className="label">Twitter</span>
-            </a>
+            
           </p>
           {close}
         </article>
