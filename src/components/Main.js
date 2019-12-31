@@ -5,6 +5,8 @@ import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import carakerja from '../images/carakerja.jpg'
 import afiliasi from '../images/afiliasi.jpg'
+import Linkify from 'react-linkify';
+
 
 class Main extends React.Component {
   render() {
@@ -33,8 +35,11 @@ class Main extends React.Component {
           <h2 className="major">Follow the link below to the survey</h2>
 
           <p>
-            Survey Link:
-            https://dsc14256.sawtoothsoftware.com/dPd77mKcG6/cgi-bin/ciwweb.pl?studyname=dPd77mKcG6
+          <Linkify>
+          Survey Link:
+          https://dsc14256.sawtoothsoftware.com/dPd77mKcG6/cgi-bin/ciwweb.pl?studyname=dPd77mKcG6
+          </Linkify>
+
           </p>
           <p>
             Powered by Papua Muda Inspiratif (PMI).
@@ -133,7 +138,7 @@ class Main extends React.Component {
               </a>
             </li>
           </ul>
-        
+
           {close}
         </article>
       </div>
