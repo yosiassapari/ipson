@@ -133,9 +133,7 @@ class Main extends React.Component {
               </a>
             </li>
           </ul>
-          <span className="image main">
-            <img src={afiliasi} alt="" />
-          </span>
+        
           {close}
         </article>
       </div>
