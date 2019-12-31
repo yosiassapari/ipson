@@ -36,6 +36,12 @@ class Main extends React.Component {
           </p>
           <p>
             Powered by Papua Muda Inspiratif (PMI).
+            <a
+              href="https://twitter.com/PascalSapari"
+              className="icon fa-twitter"
+            >
+              <span className="label">Twitter</span>
+            </a>
           </p>
           {close}
         </article>
@@ -107,7 +113,7 @@ class Main extends React.Component {
             <li>
               <a
                 href="https://twitter.com/PascalSapari"
-                className="icon fa-check-square-o"
+                className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
