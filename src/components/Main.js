@@ -28,20 +28,22 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Follow the link below</h2>
+          <h2 className="major">Click the icon below</h2>
 
           <p>
-            Survey Link:
+            To the survey:
+            <li>
             <a
                 href="https://dsc14256.sawtoothsoftware.com/dPd77mKcG6/cgi-bin/ciwweb.pl?studyname=dPd77mKcG6"
                 className="icon fa-check-square-o"
               >
                 <span className="label">Survey</span>
               </a>
+            </li>
           </p>
           <p>
             Powered by Papua Muda Inspiratif (PMI).
-            
+
           </p>
           {close}
         </article>
