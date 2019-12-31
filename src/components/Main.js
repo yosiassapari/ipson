@@ -30,7 +30,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Apa itu Honai Technology?</h2>
+          <h2 className="major">What is Honai Technology?</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
@@ -50,22 +50,16 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Mengapa IPSON penting?</h2>
+          <h2 className="major">Take The Survey</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
-            Anak-anak Papua sering kesulitan memilih bidang
-            ilmu atau karir yang sesuai minat karena
-            kurangnya akses informasi sehingga muncul kebutuhan
-            akan mentoring tentang proses penyaluran minat/bakat
+            https://dsc14256.sawtoothsoftware.com/dPd77mKcG6/cgi-bin/ciwweb.pl?studyname=dPd77mKcG6
           </p>
           <p>
-            Keunikan IPSON:
-            <ul>
-              <li>Mentor mendapat pemasukkan sampingan</li>
-              <li>Mentee mendapat kesempatan untuk berkunjung ke tempat mentor</li>
-            </ul>
+            Thank you for participating in our survey
+
           </p>
           {close}
         </article>
@@ -77,12 +71,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Bagaimana cara kerja IPSON?</h2>
-          <span className="image main">
-            <img src={carakerja} alt="" />
-          </span>
-          {close}
-        </article>
+
 
         <article
           id="contact"
@@ -142,9 +131,7 @@ class Main extends React.Component {
               </a>
             </li>
           </ul>
-          <span className="image main">
-            <img src={afiliasi} alt="" />
-          </span>
+
           {close}
         </article>
       </div>
