@@ -107,7 +107,7 @@ class Main extends React.Component {
             <li>
               <a
                 href="https://twitter.com/PascalSapari"
-                className="fas fa-poll"
+                <i class="fas fa-poll"></i>
               >
                 <span className="label">Twitter</span>
               </a>
