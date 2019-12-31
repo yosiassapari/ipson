@@ -10,7 +10,7 @@ const Header = (props) => (
             <div className="inner">
                 <h1>Honai Technology</h1>
                 <p>Do More<br />
-                
+
                 With Less</p>
             </div>
         </div>
@@ -18,7 +18,6 @@ const Header = (props) => (
             <ul>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Apa itu Honai Tech?</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Mengapa Honai Tech?</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>Bagaimana cara kerja Honai Tech?</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
             </ul>
         </nav>
