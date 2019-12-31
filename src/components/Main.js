@@ -5,7 +5,6 @@ import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import carakerja from '../images/carakerja.jpg'
 import afiliasi from '../images/afiliasi.jpg'
-import Linkify from 'react-linkify'
 
 
 class Main extends React.Component {
