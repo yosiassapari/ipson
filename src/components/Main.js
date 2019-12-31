@@ -31,7 +31,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Follow the link below to the survey</h2>
+          <h2 className="major">Follow the link below</h2>
 
           <p>
             Survey Link:
