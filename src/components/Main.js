@@ -30,12 +30,11 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">What is Honai Technology?</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
+          <h2 className="major">Follow the link below to the survey</h2>
+
           <p>
-            Do More With Less.
+            Survey Link:
+            https://dsc14256.sawtoothsoftware.com/dPd77mKcG6/cgi-bin/ciwweb.pl?studyname=dPd77mKcG6
           </p>
           <p>
             Powered by Papua Muda Inspiratif (PMI).
@@ -50,12 +49,12 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Take The Survey</h2>
+          <h2 className="major">What is Honai Technology?</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
-            https://dsc14256.sawtoothsoftware.com/dPd77mKcG6/cgi-bin/ciwweb.pl?studyname=dPd77mKcG6
+            Coming Soon
           </p>
           <p>
             Thank you for participating in our survey
@@ -72,9 +71,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">How it works?</h2>
-          <span className="image main">
-            <img src={carakerja} alt="" />
-          </span>
+
           {close}
         </article>
 

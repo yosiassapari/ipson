@@ -16,8 +16,8 @@ const Header = (props) => (
         </div>
         <nav>
             <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Apa itu Honai Tech?</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Mengapa Honai Tech?</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Take Our Survey</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>What is Honai Tech?</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
             </ul>
         </nav>
