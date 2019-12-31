@@ -30,15 +30,15 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Apa itu IPSON?</h2>
+          <h2 className="major">Apa itu Honai Technology?</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
           <p>
-            Platform mentorship online/offline untuk membangun hubungan sosial, akademik, dan entrepreneurship anak-anak Papua.
+            Do More With Less.
           </p>
           <p>
-            Visi IPSON adalah untuk membantu anak-anak Papua meraih kesuksesan sesuai bidang dan minatnya.
+            Powered by Papua Muda Inspiratif (PMI).
           </p>
           {close}
         </article>
