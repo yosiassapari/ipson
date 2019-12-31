@@ -4,7 +4,7 @@ import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import carakerja from '../images/carakerja.jpg'
-import afiliasi from '../images/afiliasi.jpg'
+import bg2 from '../images/bg2.jpg'
 
 
 class Main extends React.Component {
@@ -135,7 +135,7 @@ class Main extends React.Component {
             </li>
           </ul>
           <span className="image main">
-            <img src={afiliasi} alt="" />
+            <img src={bg2} alt="" />
           </span>
           {close}
         </article>
