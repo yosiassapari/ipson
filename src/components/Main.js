@@ -1,9 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
-import carakerja from '../images/carakerja.jpg'
+import bg4 from '../images/bg4.jpg'
 import bg2 from '../images/bg2.jpg'
 
 
@@ -52,7 +49,7 @@ class Main extends React.Component {
         >
           <h2 className="major">What is Honai Technology?</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={bg4} alt="" />
           </span>
           <p>
             Coming Soon
