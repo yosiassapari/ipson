@@ -1,10 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
-import carakerja from '../images/carakerja.jpg'
-import afiliasi from '../images/afiliasi.jpg'
+import bg4 from '../images/bg4.jpg'
+import bg2 from '../images/bg2.jpg'
+
 
 class Main extends React.Component {
   render() {
@@ -30,15 +28,22 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Apa itu IPSON?</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
+          <h2 className="major">Click the icon below</h2>
+
           <p>
-            Platform mentorship online/offline untuk membangun hubungan sosial, akademik, dan entrepreneurship anak-anak Papua.
+            To the survey:
+            <li>
+            <a
+                href="https://dsc14256.sawtoothsoftware.com/dPd77mKcG6/cgi-bin/ciwweb.pl?studyname=dPd77mKcG6"
+                className="icon fa-check-square-o"
+              >
+                <span className="label">Survey</span>
+              </a>
+            </li>
           </p>
           <p>
-            Visi IPSON adalah untuk membantu anak-anak Papua meraih kesuksesan sesuai bidang dan minatnya.
+            Powered by Papua Muda Inspiratif (PMI).
+
           </p>
           {close}
         </article>
@@ -50,22 +55,16 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Mengapa IPSON penting?</h2>
+          <h2 className="major">What is Honai Technology?</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={bg4} alt="" />
           </span>
           <p>
-            Anak-anak Papua sering kesulitan memilih bidang
-            ilmu atau karir yang sesuai minat karena
-            kurangnya akses informasi sehingga muncul kebutuhan
-            akan mentoring tentang proses penyaluran minat/bakat
+            Coming Soon
           </p>
           <p>
-            Keunikan IPSON:
-            <ul>
-              <li>Mentor mendapat pemasukkan sampingan</li>
-              <li>Mentee mendapat kesempatan untuk berkunjung ke tempat mentor</li>
-            </ul>
+            Thank you for participating in our survey
+
           </p>
           {close}
         </article>
@@ -77,10 +76,8 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Bagaimana cara kerja IPSON?</h2>
-          <span className="image main">
-            <img src={carakerja} alt="" />
-          </span>
+          <h2 className="major">How it works?</h2>
+
           {close}
         </article>
 
@@ -143,7 +140,7 @@ class Main extends React.Component {
             </li>
           </ul>
           <span className="image main">
-            <img src={afiliasi} alt="" />
+            <img src={bg2} alt="" />
           </span>
           {close}
         </article>

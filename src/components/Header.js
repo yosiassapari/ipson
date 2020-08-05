@@ -8,17 +8,16 @@ const Header = (props) => (
         </div>
         <div className="content">
             <div className="inner">
-                <h1>International Papua Scholars Network</h1>
-                <p>Membangun Jejaring<br />
-                Akademik dan Professional<br />
-                Terbesar di Papua/Papua Barat</p>
+                <h1>Honai Technology</h1>
+                <p>Do More<br />
+
+                With Less</p>
             </div>
         </div>
         <nav>
             <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Apa itu IPSON?</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Mengapa IPSON penting?</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>Bagaimana cara kerja IPSON?</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Take Our Survey</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>What is Honai Tech?</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
             </ul>
         </nav>
